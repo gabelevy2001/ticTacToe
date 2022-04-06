@@ -80,7 +80,7 @@ import './index.css';
           'Go to move #' + move :
           'Go to game start';
         return (
-          <li>
+          <li key={move}>
             <button onClick={() => this.jumpTo(move)}>{desc}</button>
           </li>
         );
@@ -109,7 +109,6 @@ import './index.css';
       );
     }
   }
-  
   // ========================================
   
   ReactDOM.render(
