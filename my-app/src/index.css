@@ -1,6 +1,8 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
+    align-content: center;
+    background-color: green;
   }
   
   ol, ul {
@@ -30,6 +32,9 @@ body {
     padding: 0;
     text-align: center;
     width: 34px;
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
   }
   
   .square:focus {
@@ -48,4 +53,6 @@ body {
   .game-info {
     margin-left: 20px;
   }
+
+  
   
